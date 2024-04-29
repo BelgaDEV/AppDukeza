@@ -1,0 +1,181 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat-bold";
+}
+
+p {
+    color: #f88f8f;
+}
+
+/*seção heading */
+
+.big-heading {
+    font-family: 'Montserrat-Black, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-family: 3rem;
+    line-height: 1.5;
+}
+
+/* Conteinar section */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* seção title*/
+
+#title {
+    background-color: #051d35;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* espaço do escrito "app Dukezza" em relação o texto abaixo dele */
+.navbar {
+    padding:  0 0 4.5rem;
+}
+
+/* aumenta o espaço de prrencimento do home,produto,sobre e blog */
+.nav-item {
+    padding: 0 18px;
+}
+
+/* Altera aa fonte das escritas home,produto,sobre e blog */
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/*tamando da imagem 1 do gato */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 21%;
+}
+
+
+/* seção dos buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*tamando das seçãos das features-boxs */
+#Features {
+background: #fff;
+z-index: 1;
+position: relative;
+}
+
+/*alinhamento no centro e adicionando prrencimento aos box de h3*/
+.feature-box {
+    padding: 5%;
+}
+
+.features-title {
+    font-size: 1.5rem;
+}
+
+/* cor e distancia do icone ao texto*/
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* efeito ao passar mouse no icone */
+.icon:hover {
+    color: #ff4c68;
+}
+
+/*============testemonials seção========== */
+
+/* ajustes da seção de testemunhos */
+#testimonials {
+    background-color: #ef8172 ;
+    color: #fff;
+}
+
+.testemonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* ajuste de tamanho e arredondamento da borda da imagem */
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* cor, alinhamento e preenchimento da seção press*/
+#press {
+    background-color: #ef8172 ;
+    padding-bottom: 3%;
+}
+
+/* tamanho e margin das imagems press*/
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* seção dos preços */
+
+#pricing {
+padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*seção cta*/
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* seção do footer*/
+
+ .social-icon {
+    margin: 20px 10px;
+ }
+
+
+/*site responsivo*/
+
+    @media (max-width:1028px){
+
+        #title {
+            text-align: center;
+        }
+
+        .title-image {
+            position: static;
+            transform: rotate(0);
+        }
+    }
